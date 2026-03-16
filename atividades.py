@@ -54,3 +54,19 @@ for aluno, notas in turma.items():
     
     print(f"{aluno} – Média: {media:.1f} – Situação: {situacao}")
 '''
+#14
+'''
+
+info1 = {'nome': 'Notebook', 'preco': 3500.00}
+info2 = {'marca': 'TechBrand', 'estoque': 15}
+
+# mesclando os dois dicionários
+produto = {**info1, **info2}
+
+# alterando o preço
+produto['preco'] = 3200.00
+
+# imprimindo o dicionário final
+print(produto)
+
+'''
